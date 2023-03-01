@@ -1,0 +1,13 @@
+#include <stdio.h>
+#include <locale.h>
+main()
+{
+    setlocale(0,"Russian");
+    int x;
+    float y;
+    printf("Пожалуйста, введите x\n");
+    scanf("%d", &x);
+    y=cos(x);
+    printf("y = %f", y);
+    getchar();
+}
