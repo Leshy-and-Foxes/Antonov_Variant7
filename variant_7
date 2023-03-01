@@ -8,6 +8,6 @@ main()
     printf("Пожалуйста, введите x\n");
     scanf("%d", &x);
     y=cos(x);
-    printf("y = %f", y);
+    printf("y = %f", y*2);
     getchar();
 }
